@@ -109,6 +109,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/derp/prebuilt/common/etc/permissions/product-privapp-permissions-aosp.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/product-privapp-permissions-aosp.xml
 
+# DerpFest-specific broadcast actions whitelist
+PRODUCT_COPY_FILES += \
+    vendor/derp/prebuilt/common/etc/permissions/derpfest-sysconfig.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/derpfest-sysconfig.xml
+
 # Strip the local variable table and the local variable type table to reduce
 # the size of the system image. This has no bearing on stack traces, but will
 # leave less information available via JDWP.

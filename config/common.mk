@@ -91,7 +91,7 @@ PRODUCT_SYSTEM_PROPERTIES += \
 
 # Support many users/work profiles
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    persist.sys.max_profiles=16 \
+    persist.sys.max_profiles?=16 \
     fw.max_users=32
 
 # Include extra packages

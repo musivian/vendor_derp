@@ -168,6 +168,11 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     BtHelper
 
+# DerpFest Framework
+PRODUCT_PACKAGES += \
+    DerpFestManifest \
+    framework-derpfest
+
 # Root
 PRODUCT_PACKAGES += \
     adb_root

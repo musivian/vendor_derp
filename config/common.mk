@@ -173,6 +173,9 @@ PRODUCT_PACKAGES += \
     DerpFestManifest \
     framework-derpfest
 
+PRODUCT_PACKAGES += \
+    DerpFestSystemUI
+
 # Root
 PRODUCT_PACKAGES += \
     adb_root

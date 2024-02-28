@@ -125,6 +125,10 @@ PRODUCT_RESTRICT_VENDOR_FILES := false
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.iorapd.enable=false
 
+# Include AOSP initial package stopped states.
+PRODUCT_PACKAGES += \
+    initial-package-stopped-states-aosp.xml
+
 # Screen Resolution
 TARGET_SCREEN_WIDTH ?= 1080
 TARGET_SCREEN_HEIGHT ?= 1920

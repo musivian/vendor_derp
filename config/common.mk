@@ -176,6 +176,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     BtHelper
 
+ifneq ($(filter %_lemonades %_kebab,$(TARGET_PRODUCT)),)
+PRODUCT_PACKAGES += DerpFestRemovePackages
+endif
+
 # DerpFest Framework
 PRODUCT_PACKAGES += \
     DerpFestManifest \

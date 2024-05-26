@@ -45,6 +45,7 @@ SOONG_CONFIG_derpGlobalVars += \
     target_powershare_path \
     target_powershare_enabled \
     target_powershare_disabled \
+    target_libcameraservice_ext_lib \
     target_surfaceflinger_udfps_lib \
     target_trust_usb_control_path \
     target_trust_usb_control_enable \
@@ -88,6 +89,7 @@ SOONG_CONFIG_derpQcomVars_uses_pre_uplink_features_netmgrd := $(TARGET_USES_PRE_
 # Set default values
 TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS ?= 0
 TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED ?= false
+TARGET_CAMERA_SERVICE_EXT_LIB ?= libcameraservice_ext_lib
 TARGET_GRALLOC_HANDLE_HAS_CUSTOM_CONTENT_MD_RESERVED_SIZE ?= false
 TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE ?= false
 TARGET_GRALLOC_HANDLE_HAS_UBWCP_FORMAT ?= false
@@ -120,6 +122,7 @@ SOONG_CONFIG_derpGlobalVars_target_power_libperfmgr_mode_extension_lib := $(TARG
 SOONG_CONFIG_derpGlobalVars_target_powershare_path := $(TARGET_POWERSHARE_PATH)
 SOONG_CONFIG_derpGlobalVars_target_powershare_enabled := $(TARGET_POWERSHARE_ENABLED)
 SOONG_CONFIG_derpGlobalVars_target_powershare_disabled := $(TARGET_POWERSHARE_DISABLED)
+SOONG_CONFIG_derpGlobalVars_target_libcameraservice_ext_lib := $(TARGET_CAMERA_SERVICE_EXT_LIB)
 SOONG_CONFIG_derpGlobalVars_target_surfaceflinger_udfps_lib := $(TARGET_SURFACEFLINGER_UDFPS_LIB)
 SOONG_CONFIG_derpGlobalVars_target_trust_usb_control_path := $(TARGET_TRUST_USB_CONTROL_PATH)
 SOONG_CONFIG_derpGlobalVars_target_trust_usb_control_enable := $(TARGET_TRUST_USB_CONTROL_ENABLE)

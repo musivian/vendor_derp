@@ -17,5 +17,6 @@
 
     <privapp-permissions package="com.android.launcher3">
         <permission name="com.android.permission.MANAGE_PARALLEL_SPACES"/>
+        <permission name="org.derpfest.permission.START_FREEFORM"/>
     </privapp-permissions>
 </permissions>

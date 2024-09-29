@@ -4,6 +4,8 @@ PRODUCT_PACKAGES += \
     Datura \
     DerpSetupWizard \
     GameSpace \
+    LMOFreeform \
+    LMOFreeformSidebar \
     NetworkStackOverlay \
     NetworkStackMainlineOverlay \
     OmniStyle \

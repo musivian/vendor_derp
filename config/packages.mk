@@ -42,6 +42,9 @@ PRODUCT_PACKAGES += \
     setcap \
     vim
 
+PRODUCT_PACKAGES += \
+    nano_recovery
+
 # Filesystems tools
 PRODUCT_PACKAGES += \
     fsck.ntfs \

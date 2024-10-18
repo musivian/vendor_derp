@@ -3,8 +3,6 @@ $(call inherit-product-if-exists, vendor/extra/product.mk)
 
 PRODUCT_BRAND ?= DerpFest
 
-PRODUCT_BUILD_PROP_OVERRIDES += DateUtc=0
-
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.com.google.clientidbase=android-google

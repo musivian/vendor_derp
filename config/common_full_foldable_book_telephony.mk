@@ -9,3 +9,5 @@ PRODUCT_PRODUCT_PROPERTIES += \
 $(call inherit-product, vendor/derp/config/tablet.mk)
 
 $(call inherit-product, vendor/derp/config/telephony.mk)
+
+PRODUCT_PACKAGE_OVERLAYS += vendor/derp/overlay/foldable_book

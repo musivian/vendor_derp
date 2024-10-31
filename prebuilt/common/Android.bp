@@ -14,3 +14,10 @@ prebuilt_etc {
     filename_from_src: true,
     system_ext_specific: true,
 }
+
+prebuilt_etc_xml {
+    name: "derpfest-component-overrides.xml",
+    product_specific: true,
+    src: "etc/derpfest-component-overrides.xml",
+    sub_dir: "sysconfig",
+}

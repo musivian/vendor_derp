@@ -85,6 +85,10 @@ else
         SettingsGoogleFutureFaceEnroll
 endif
 
+# Component overrides
+PRODUCT_PACKAGES += \
+    derpfest-component-overrides.xml
+
 # Enforce privapp-permissions whitelist
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.control_privapp_permissions?=enforce

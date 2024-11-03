@@ -3,14 +3,8 @@ $(call inherit-product, vendor/derp/config/common_mobile_full.mk)
 
 # GMS
 WITH_GMS := true
-# Inherit from GMS product config
-ifeq ($(TARGET_USES_MINI_GAPPS),true)
-$(call inherit-product, vendor/gms/gms_mini.mk)
-else ifeq ($(TARGET_USES_PICO_GAPPS),true)
-$(call inherit-product, vendor/gms/gms_pico.mk)
-else
-$(call inherit-product, vendor/gms/gms_full.mk)
-endif
+$(call inherit-product, vendor/google/gms/config.mk)
+$(call inherit-product, vendor/google/pixel/config.mk)
 
 # Inherit tablet common DerpFest stuff
 $(call inherit-product, vendor/derp/config/tablet.mk)

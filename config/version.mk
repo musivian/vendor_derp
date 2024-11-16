@@ -33,11 +33,11 @@ ifeq ($(DERP_BUILDTYPE), CI)
 endif
 
 PRODUCT_SYSTEM_PROPERTIES += \
-  ro.derp.build.version=$(DERP_BUILD_VERSION) \
-  ro.derp.build.date=$(BUILD_DATE) \
-  ro.derp.buildtype=$(DERP_BUILDTYPE) \
-  ro.derp.fingerprint=$(ROM_FINGERPRINT) \
-  ro.derp.version=$(DERP_VERSION) \
+  ro.derpfest.build.version=$(DERP_BUILD_VERSION) \
+  ro.derpfest.build.date=$(BUILD_DATE) \
+  ro.derpfest.buildtype=$(DERP_BUILDTYPE) \
+  ro.derpfest.fingerprint=$(ROM_FINGERPRINT) \
+  ro.derpfest.version=$(DERP_VERSION) \
   ro.modversion=$(DERP_VERSION)
 
 ifneq ($(OVERRIDE_OTA_CHANNEL),)

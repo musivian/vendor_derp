@@ -180,7 +180,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     BtHelper
 
-ifneq ($(filter %_lemonades %_kebab %_nairo %_alioth,$(TARGET_PRODUCT)),)
+ifneq ($(filter %_cheeseburger %_dumpling %_nairo %_alioth,$(TARGET_PRODUCT)),)
 PRODUCT_PACKAGES += DerpFestRemovePackages
 endif
 

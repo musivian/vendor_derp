@@ -131,6 +131,9 @@ PRODUCT_SYSTEM_PROPERTIES += \
 PRODUCT_PACKAGES += \
     initial-package-stopped-states-aosp.xml
 
+PRODUCT_COPY_FILES += \
+    vendor/derp/prebuilt/common/etc/permissions/quick_tap.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/quick_tap.xml
+
 # Screen Resolution
 TARGET_SCREEN_WIDTH ?= 1080
 TARGET_SCREEN_HEIGHT ?= 1920

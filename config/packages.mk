@@ -2,7 +2,7 @@
 PRODUCT_PACKAGES += \
     BatteryStatsViewer \
     Datura \
-    DerpSetupWizard \
+    DerpFestSetupWizard \
     GameSpace \
     LMOFreeform \
     LMOFreeformSidebar \

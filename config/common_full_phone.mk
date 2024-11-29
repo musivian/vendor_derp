@@ -17,5 +17,8 @@ WITH_GMS := true
 $(call inherit-product, vendor/google/gms/config.mk)
 $(call inherit-product, vendor/google/pixel/config.mk)
 
+# Pixel Framework
+$(call inherit-product, vendor/pixel-framework/config.mk)
+
 # Inherit from telephony config
 $(call inherit-product, vendor/derp/config/telephony.mk)

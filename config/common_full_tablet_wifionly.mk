@@ -11,4 +11,7 @@ $(call inherit-product, vendor/google/pixel/config.mk)
 # Inherit tablet common DerpFest stuff
 $(call inherit-product, vendor/derp/config/tablet.mk)
 
+# Pixel Framework
+$(call inherit-product, vendor/pixel-framework/config.mk)
+
 $(call inherit-product, vendor/derp/config/wifionly.mk)

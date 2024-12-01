@@ -8,6 +8,7 @@ PRODUCT_PACKAGES += \
     LMOFreeformSidebar \
     NetworkStackOverlay \
     NetworkStackMainlineOverlay \
+    OmniJaws \
     OmniStyle \
     Panic \
     ParallelSpace \

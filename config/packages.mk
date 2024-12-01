@@ -33,6 +33,14 @@ PRODUCT_PACKAGES += \
     UdfpsIcons
 endif
 
+# TFLite service
+PRODUCT_PACKAGES += libtensorflowlite_jni
+
+# Allow TFLite service modules to be installed to the system partition
+PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
+    system/lib/libtensorflowlite_jni.so \
+ 	system/lib64/libtensorflowlite_jni.so
+
 # Extra tools in DerpFest
 PRODUCT_PACKAGES += \
     bash \

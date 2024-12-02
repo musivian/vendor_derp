@@ -4,7 +4,6 @@
         <permission name="com.android.permission.MANAGE_PARALLEL_SPACES"/>
 
         <permission name="lineageos.permission.HARDWARE_ABSTRACTION_ACCESS" />
-        <permission name="lineageos.permission.MANAGE_LIVEDISPLAY" />
     </privapp-permissions>
 
     <privapp-permissions package="com.android.settings">
@@ -18,5 +17,7 @@
     <privapp-permissions package="com.android.launcher3">
         <permission name="com.android.permission.MANAGE_PARALLEL_SPACES"/>
         <permission name="org.derpfest.permission.START_FREEFORM"/>
+
+        <permission name="lineageos.permission.HARDWARE_ABSTRACTION_ACCESS" />
     </privapp-permissions>
 </permissions>

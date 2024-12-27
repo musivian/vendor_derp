@@ -55,6 +55,11 @@ cc_library_headers {
     defaults: ["generated_kernel_header_defaults"],
 }
 
+cc_library_headers {
+    name: "qti_kernel_headers",
+    defaults: ["generated_kernel_header_defaults"],
+}
+
 soong_config_module_type {
     name: "camera_override_format_from_reserved",
     module_type: "cc_defaults",
